@@ -1,0 +1,646 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0044)https://browser.geekbench.com/v4/cpu/2670561 -->
+<!DOCTYPE html PUBLIC "" ""><HTML><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+ 
+<META http-equiv="X-UA-Compatible" content="IE=edge"> 
+<META charset="utf-8"> 
+<META name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
+<META name="apple-mobile-web-app-capable" content="yes"> 
+<META name="csrf-param" content="authenticity_token"> 
+<META name="csrf-token" content="Qw+XQfYoGJ4S92L25yRQmWbPXzTe7fZ55jCjCA4gRqM="> 
+<SCRIPT src="/assets/application-fc4ca7998456e2c3bb7097dc7b1f516f.js" type="text/javascript"></SCRIPT>
+ <LINK href="aws-geek-3_files/application-5018b86f0f6d8a909fcd40d6f61d06e0.css" 
+rel="stylesheet" type="text/css" media="screen"> 
+<SCRIPT src="/fusion/Charts/FusionCharts.js" type="text/javascript"></SCRIPT>
+ <!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--> 
+<TITLE>Xen HVM domU - Geekbench Browser</TITLE> 
+<META name="description" content="Benchmark results for a Xen HVM domU with an Intel Xeon E5-2686 v4 processor.&#10;"> 
+<SCRIPT>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  
+    ga('create', 'UA-83282280-2', 'auto');
+    ga('send', 'pageview');
+</SCRIPT>
+ 
+<SCRIPT>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:390387,hjsv:5};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</SCRIPT>
+ 
+<META name="GENERATOR" content="MSHTML 11.00.10570.1001"></HEAD> 
+<BODY>
+<DIV class="navbar navbar-default navbar-fixed-top">
+<DIV class="container">
+<DIV class="navbar-header"><BUTTON class="navbar-toggle collapsed" 
+aria-expanded="false" type="button" data-toggle="collapse" data-target=".navbar-collapse"><SPAN 
+class="sr-only">Toggle navigation</SPAN> <SPAN class="icon-bar"></SPAN><SPAN 
+class="icon-bar"></SPAN><SPAN class="icon-bar"></SPAN></BUTTON><A class="navbar-brand" 
+href="https://browser.geekbench.com/">Geekbench Browser</A> </DIV>
+<DIV class="collapse navbar-collapse">
+<UL class="nav navbar-nav">
+  <LI class="dropdown" data-dropdown="dropdown"><A class="dropdown-toggle" href="https://browser.geekbench.com/v4/cpu/2670561#" 
+  data-toggle="dropdown">Geekbench 4 <B class="caret"></B></A>
+  <UL class="dropdown-menu">
+    <LI><A href="https://browser.geekbench.com/v4/cpu/singlecore">Top 
+    Single-Core Results</A></LI>
+    <LI><A href="https://browser.geekbench.com/v4/cpu/multicore">Top Multi-Core 
+    Results</A></LI>
+    <LI><A href="https://browser.geekbench.com/v4/cpu">Recent Results</A></LI>
+    <LI><A href="https://browser.geekbench.com/v4/cpu/search">Search 
+    Results</A></LI>
+    <LI class="divider"></LI>
+    <LI><A href="https://browser.geekbench.com/v4/compute">Recent Compute 
+    Results</A></LI>
+    <LI><A href="https://browser.geekbench.com/v4/compute/search">Search Compute 
+    Results</A></LI></UL></LI>
+  <LI class="dropdown" data-dropdown="dropdown"><A class="dropdown-toggle" href="https://browser.geekbench.com/v4/cpu/2670561#" 
+  data-toggle="dropdown">Geekbench 3 <B class="caret"></B></A>
+  <UL class="dropdown-menu">
+    <LI><A href="https://browser.geekbench.com/geekbench3/singlecore">Top 
+    Single-Core Results</A></LI>
+    <LI><A href="https://browser.geekbench.com/geekbench3/multicore">Top 
+    Multi-Core Results</A></LI>
+    <LI><A href="https://browser.geekbench.com/geekbench3">Recent 
+    Results</A></LI>
+    <LI><A href="https://browser.geekbench.com/geekbench3/search">Search 
+    Results</A></LI>
+    <LI class="divider"></LI>
+    <LI><A href="https://browser.geekbench.com/battery3/top">Top Battery 
+    Results</A></LI>
+    <LI><A href="https://browser.geekbench.com/battery3/longest">Longest Battery 
+    Results</A></LI>
+    <LI><A href="https://browser.geekbench.com/battery3">Recent Battery 
+    Results</A></LI>
+    <LI><A href="https://browser.geekbench.com/battery3/search">Search Battery 
+    Results</A></LI></UL></LI>
+  <LI class="dropdown" data-dropdown="dropdown"><A class="dropdown-toggle" href="https://browser.geekbench.com/v4/cpu/2670561#" 
+  data-toggle="dropdown">Benchmark Charts <B class="caret"></B></A>
+  <UL class="dropdown-menu">
+    <LI><A href="https://browser.geekbench.com/android-benchmarks">Android 
+    Benchmark Chart</A></LI>
+    <LI><A href="https://browser.geekbench.com/ios-benchmarks">iOS Benchmark 
+    Chart</A></LI>
+    <LI><A href="https://browser.geekbench.com/mac-benchmarks">Mac Benchmark 
+    Chart</A></LI>
+    <LI><A href="https://browser.geekbench.com/processor-benchmarks">Processor 
+    Benchmark Chart</A></LI>
+    <LI class="divider"></LI>
+    <LI><A href="https://browser.geekbench.com/cuda-benchmarks">CUDA Benchmark 
+    Chart</A></LI>
+    <LI><A href="https://browser.geekbench.com/opencl-benchmarks">OpenCL 
+    Benchmark Chart</A></LI>
+    <LI><A 
+    href="https://browser.geekbench.com/renderscript-benchmarks">RenderScript 
+    Benchmark Chart</A></LI></UL></LI></UL>
+<FORM class="navbar-form navbar-left" action="/v4/cpu/search">
+<DIV class="form-group col-xs-12"><I class="fa fa-search fa-inverse"></I> 
+<INPUT name="q" class="search-query" type="text" placeholder="Search Results" value=""> 
+</DIV></FORM>
+<UL class="nav navbar-nav navbar-right">
+  <LI class="dropdown" data-dropdown="dropdown"><A class="dropdown-toggle" href="https://browser.geekbench.com/v4/cpu/2670561#" 
+  data-toggle="dropdown">Account <B class="caret"></B></A>
+  <UL class="dropdown-menu">
+    <LI><A href="https://browser.geekbench.com/user/new">Sign Up</A></LI>
+    <LI><A href="https://browser.geekbench.com/session/new">Log 
+  In</A></LI></UL></LI></UL></DIV></DIV></DIV>
+<DIV class="container" id="wrap">
+<DIV class="row">
+<DIV class="col-md-9">
+<DIV class="row row-centered">
+<DIV class="col-xs-12"></DIV></DIV>
+<DIV class="page-header">
+<H2>Xen HVM domU </H2></DIV>
+<TABLE class="table geekbench4-show summary">
+  <THEAD>
+  <TR>
+    <TH class="score">Single-Core Score</TH>
+    <TH class="score">Multi-Core Score</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD class="score" rowspan="3">3131</TD>
+    <TD class="score" rowspan="3">6573</TD></TR></TBODY>
+  <TFOOT>
+  <TR>
+    <TD colspan="2">Geekbench 4.1.0 Tryout for Windows x86 
+  (64-bit)</TD></TR></TFOOT></TABLE>
+<H3 class="result-heading">Result Information</H3>
+<DIV class="table-responsive">
+<TABLE class="table geekbench2-show system-information">
+  <TBODY>
+  <TR>
+    <TD class="name">Upload Date</TD>
+    <TD class="value">April 26 2017 06:48 PM</TD></TR>
+  <TR>
+    <TD class="name">Views</TD>
+    <TD class="value">2</TD></TR></TBODY></TABLE></DIV>
+<H3 class="result-heading">System Information</H3>
+<DIV class="table-responsive">
+<TABLE class="table geekbench2-show system-information">
+  <THEAD>
+  <TR>
+    <TH class="name"></TH>
+    <TH class="value">Xen HVM domU</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD class="name">Operating System</TD>
+    <TD class="value">Microsoft Windows Server 2016 Datacenter (64-bit)</TD></TR>
+  <TR>
+    <TD class="name">Model</TD>
+    <TD class="value">Xen HVM domU</TD></TR>
+  <TR>
+    <TD class="name">Processor</TD>
+    <TD class="value">Intel Xeon E5-2686 v4 @ 2.30 GHz <BR>1 processor, 2 
+      cores, 4 threads </TD></TR>
+  <TR>
+    <TD class="name">Processor ID</TD>
+    <TD class="value">GenuineIntel Family 6 Model 79 Stepping 1</TD></TR>
+  <TR>
+    <TD class="name">Processor Codename</TD>
+    <TD class="value">Broadwell-E/EP</TD></TR>
+  <TR>
+    <TD class="name">Processor Package</TD>
+    <TD class="value">Socket 2011 LGA</TD></TR>
+  <TR>
+    <TD class="name">L1 Instruction Cache</TD>
+    <TD class="value">32 KB x 2</TD></TR>
+  <TR>
+    <TD class="name">L1 Data Cache</TD>
+    <TD class="value">32 KB x 2</TD></TR>
+  <TR>
+    <TD class="name">L2 Cache</TD>
+    <TD class="value">256 KB x 2</TD></TR>
+  <TR>
+    <TD class="name">L3 Cache</TD>
+    <TD class="value">46080 KB</TD></TR>
+  <TR>
+    <TD class="name">Motherboard</TD>
+    <TD class="value"></TD></TR>
+  <TR>
+    <TD class="name">Northbridge</TD>
+    <TD class="value">Intel i440FX 02</TD></TR>
+  <TR>
+    <TD class="name">Southbridge</TD>
+    <TD class="value">Intel 82371SB (PIIX3) 00</TD></TR>
+  <TR>
+    <TD class="name">BIOS</TD>
+    <TD class="value">Xen 4.2.amazon</TD></TR>
+  <TR>
+    <TD class="name">Memory</TD>
+    <TD class="value">16384 MB FPM_RAM 101MHz</TD></TR></TBODY></TABLE></DIV>
+<H3 class="result-heading">Single-Core Performance</H3>
+<DIV class="table-responsive">
+<TABLE class="table geekbench2-show section-performance">
+  <THEAD>
+  <TR>
+    <TH class="name">Single-Core Score</TH>
+    <TH class="score">3131</TH>
+    <TH class="graph"></TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="name">Crypto Score</TH>
+    <TH class="score">2797</TH>
+    <TH class="graph"></TH></TR>
+  <TR>
+    <TH class="name">Integer Score</TH>
+    <TH class="score">3306</TH>
+    <TH class="graph"></TH></TR>
+  <TR>
+    <TH class="name">Floating Point Score</TH>
+    <TH class="score">3086</TH>
+    <TH class="graph"></TH></TR>
+  <TR>
+    <TH class="name">Memory Score</TH>
+    <TH class="score">2886</TH>
+    <TH class="graph"></TH></TR>
+  <TBODY>
+  <TR class="alt">
+    <TD class="name">AES <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 2797 <BR><SPAN class="description">2.11 
+      GB/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 23%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">LZMA <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 3191 <BR><SPAN class="description">4.98 
+      MB/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 26%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">JPEG <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 3138 <BR><SPAN class="description">25.3 
+      Mpixels/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 26%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">Canny <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 3116 <BR><SPAN class="description">43.2 
+      Mpixels/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 26%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">Lua <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 3008 <BR><SPAN class="description">3.09 
+      MB/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 25%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">Dijkstra <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 3885 <BR><SPAN class="description">2.63 
+      MTE/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 32%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">SQLite <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 3169 <BR><SPAN class="description">87.9 
+      Krows/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 26%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">HTML5 Parse <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 3044 <BR><SPAN class="description">13.8 
+      MB/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 25%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">HTML5 DOM <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 3397 <BR><SPAN class="description">3.08 
+      MElements/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 28%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">Histogram Equalization <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 3057 <BR><SPAN class="description">95.5 
+      Mpixels/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 25%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">PDF Rendering <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 3150 <BR><SPAN class="description">83.7 
+      Mpixels/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 26%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">LLVM <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 4927 <BR><SPAN class="description">338.8 
+      functions/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 41%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">Camera <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 3015 <BR><SPAN class="description">8.36 
+      images/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 25%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">SGEMM <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 2760 <BR><SPAN class="description">58.4 
+      Gflops</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 23%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">SFFT <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 3071 <BR><SPAN class="description">7.66 
+      Gflops</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 25%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">N-Body Physics <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 2966 <BR><SPAN class="description">2.22 
+      Mpairs/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 25%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">Ray Tracing <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 3171 <BR><SPAN class="description">463.1 
+      Kpixels/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 26%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">Rigid Body Physics <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 3264 <BR><SPAN class="description">9556.9 
+      FPS</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 27%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">HDR <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 3288 <BR><SPAN class="description">11.9 
+      Mpixels/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 27%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">Gaussian Blur <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 2812 <BR><SPAN class="description">49.3 
+      Mpixels/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 23%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">Speech Recognition <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 3501 <BR><SPAN class="description">30.0 
+      Words/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 29%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">Face Detection <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 3022 <BR><SPAN class="description">882.8 
+      Ksubwindows/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 25%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">Memory Copy <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 1804 <BR><SPAN class="description">5.00 
+      GB/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 15%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">Memory Latency <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 4594 <BR><SPAN class="description">94.2 
+      ns</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 38%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">Memory Bandwidth <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 2901 <BR><SPAN class="description">15.5 
+      GB/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 24%;">&nbsp;
+</DIV></TD></TR></TBODY></TABLE></DIV>
+<H3 class="result-heading">Multi-Core Performance</H3>
+<DIV class="table-responsive">
+<TABLE class="table geekbench2-show section-performance">
+  <THEAD>
+  <TR>
+    <TH class="name">Multi-Core Score</TH>
+    <TH class="score">6573</TH>
+    <TH class="graph"></TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="name">Crypto Score</TH>
+    <TH class="score">5986</TH>
+    <TH class="graph"></TH></TR>
+  <TR>
+    <TH class="name">Integer Score</TH>
+    <TH class="score">7309</TH>
+    <TH class="graph"></TH></TR>
+  <TR>
+    <TH class="name">Floating Point Score</TH>
+    <TH class="score">6975</TH>
+    <TH class="graph"></TH></TR>
+  <TR>
+    <TH class="name">Memory Score</TH>
+    <TH class="score">4462</TH>
+    <TH class="graph"></TH></TR>
+  <TBODY>
+  <TR class="alt">
+    <TD class="name">AES <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 5986 <BR><SPAN class="description">4.51 
+      GB/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 50%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">LZMA <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 8050 <BR><SPAN class="description">12.6 
+      MB/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 67%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">JPEG <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 7356 <BR><SPAN class="description">59.2 
+      Mpixels/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 62%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">Canny <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 6869 <BR><SPAN class="description">95.3 
+      Mpixels/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 58%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">Lua <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 5878 <BR><SPAN class="description">6.04 
+      MB/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 49%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">Dijkstra <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 8416 <BR><SPAN class="description">5.70 
+      MTE/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 71%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">SQLite <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 6626 <BR><SPAN class="description">183.7 
+      Krows/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 55%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">HTML5 Parse <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 5944 <BR><SPAN class="description">27.0 
+      MB/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 50%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">HTML5 DOM <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 8530 <BR><SPAN class="description">7.73 
+      MElements/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 72%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">Histogram Equalization <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 6330 <BR><SPAN class="description">197.8 
+      Mpixels/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 53%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">PDF Rendering <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 6590 <BR><SPAN class="description">175.1 
+      Mpixels/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 55%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">LLVM <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 11839 <BR><SPAN class="description">814.0 
+      functions/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 100%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">Camera <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 6968 <BR><SPAN class="description">19.3 
+      images/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 58%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">SGEMM <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 5521 <BR><SPAN class="description">116.7 
+      Gflops</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 46%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">SFFT <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 6189 <BR><SPAN class="description">15.4 
+      Gflops</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 52%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">N-Body Physics <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 6725 <BR><SPAN class="description">5.02 
+      Mpairs/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 56%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">Ray Tracing <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 6721 <BR><SPAN class="description">981.6 
+      Kpixels/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 56%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">Rigid Body Physics <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 8069 <BR><SPAN class="description">23621.5 
+      FPS</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 68%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">HDR <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 7921 <BR><SPAN class="description">28.7 
+      Mpixels/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 66%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">Gaussian Blur <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 5996 <BR><SPAN class="description">105.0 
+      Mpixels/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 50%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">Speech Recognition <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 9423 <BR><SPAN class="description">80.6 
+      Words/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 79%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">Face Detection <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 7012 <BR><SPAN class="description">2.05 
+      Msubwindows/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 59%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">Memory Copy <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 3548 <BR><SPAN class="description">9.83 
+      GB/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 29%;">&nbsp;</DIV></TD></TR>
+  <TR>
+    <TD class="name">Memory Latency <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 4535 <BR><SPAN class="description">95.5 
+      ns</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 38%;">&nbsp;</DIV></TD></TR>
+  <TR class="alt">
+    <TD class="name">Memory Bandwidth <BR></TD>
+    <TD class="score"><SPAN class="description"></SPAN> 5523 <BR><SPAN class="description">29.5 
+      GB/sec</SPAN> </TD>
+    <TD class="graph">
+      <DIV class="benchmark-bar" style="width: 46%;">&nbsp;
+</DIV></TD></TR></TBODY></TABLE></DIV>
+<SCRIPT>
+  var visit_url = "/visit/log.js?c=geekbench4&amp;r=2670561";
+  if (document.referrer != null && document.referrer != "") {
+    visit_url += "&amp;f=" + encodeURIComponent(document.referrer);
+  }
+  document.write(unescape("%3Cscript src='" + visit_url + "' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+ </DIV>
+<DIV class="col-md-3 hidden-xs hidden-sm">
+<DIV class="sidebar-nav">
+<UL class="geekbench-nav nav nav-list">
+  <LI class="nav-header">Compare</LI>
+  <LI><A 
+  href="https://browser.geekbench.com/geekbench4/cpu/baseline/2670561">Set 
+  Baseline</A></LI>
+  <LI class="nav-header">Share</LI>
+  <LI><A class="twitter-share-button" href="https://twitter.com/share" data-via="primatelabs" 
+  data-count="horizontal" data-text="This Xen HVM domU scored 3131 in Geekbench 4.">Tweet</A>
+<SCRIPT src="https://platform.twitter.com/widgets.js" type="text/javascript"></SCRIPT>
+   </LI>
+  <LI><!-- Place this tag where you want the +1 button to render --> <g:plusone 
+  size="medium"></g:plusone> <!-- Place this render call where appropriate --> 
+<SCRIPT>
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</SCRIPT>
+   </LI>
+  <LI><IFRAME src="aws-geek-3_files/tweet_button.5c39137502ea1894df4434ae5ed041c5.en.htm" 
+  frameborder="0" scrolling="no" style="border: currentColor; border-image: none; width: 150px; height: 21px; overflow: hidden;" 
+  allowtransparency="true"></IFRAME> </LI></UL></DIV>
+<DIV style="padding: 20px 15px;"><A href="http://www.primatelabs.com/geekbench/?utm_source=browser&amp;utm_medium=banner&amp;utm_campaign=uptospeed"><IMG 
+alt="Is your Mac up to speed? Find out with Geekbench!" src="aws-geek-3_files/mac-150px.gif"></A></DIV>
+<DIV class="sidebar-nav">
+<DIV class="google-ad">
+<SCRIPT src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async=""></SCRIPT>
+ <!-- Browser --> <INS class="adsbygoogle" style="width: 160px; height: 600px; display: inline-block;" 
+data-ad-slot="3074847303" data-ad-client="ca-pub-8695727287678635"></INS> 
+<SCRIPT>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</SCRIPT>
+ </DIV></DIV></DIV></DIV></DIV><FOOTER>
+<DIV id="footerContainer">
+<DIV class="container">
+<DIV class="row">
+<DIV class="footerNav col-xs-6 col-sm-3 col-md-2 col-md-push-3">
+<H6>Products</H6>
+<UL>
+  <LI><A href="http://www.geekbench.com/">Geekbench 4</A> </LI>
+  <LI><A href="http://www.geekbench.com/v3/">Geekbench 3</A> </LI>
+  <LI><A href="http://www.geekbench.com/v2/">Geekbench 2</A> </LI></UL></DIV>
+<DIV class="footerNav col-xs-6 col-sm-3 col-md-2 col-md-push-3">
+<H6>Support</H6>
+<UL>
+  <LI><A href="http://support.primatelabs.com/kb">Knowledge Base</A> </LI>
+  <LI><A href="http://store.primatelabs.com/store/lost_license/">Lost 
+  License</A> </LI>
+  <LI><A href="http://www.primatelabs.com/contact/">Contact</A> </LI>
+  <LI><A href="http://www.primatelabs.com/legal/privacy.html">Privacy Policy</A> 
+  </LI>
+  <LI><A href="http://www.primatelabs.com/legal/terms-of-use.html">Terms of 
+  Use</A> </LI></UL></DIV>
+<DIV class="footerNav col-xs-6 col-sm-3 col-md-2 col-md-push-3">
+<H6>News &amp; Social</H6>
+<UL>
+  <LI><A href="http://www.primatelabs.com/blog/">Blog</A> </LI>
+  <LI><A href="https://twitter.com/primatelabs">Twitter</A> </LI>
+  <LI><A href="https://www.facebook.com/primatelabs">Facebook</A> </LI>
+  <LI><A href="https://www.instagram.com/primatelabs/">Instagram</A> </LI>
+  <LI><A 
+  href="https://www.youtube.com/channel/UCAr1oShRa70bzaEYwvyLWig/feed">YouTube</A> 
+  </LI></UL></DIV>
+<DIV class="footerNav col-xs-6 col-sm-3 col-md-2 col-md-push-3">
+<H6>Company</H6>
+<UL>
+  <LI><A href="http://www.primatelabs.com/contact/">Corporate</A> </LI>
+  <LI><A href="http://www.primatelabs.com/jobs/">Jobs</A> </LI>
+  <LI><A href="http://www.primatelabs.com/contact/">Media</A> </LI></UL></DIV>
+<DIV class="col-xs-8 col-xs-push-2 col-sm-4 col-sm-push-4 col-md-3 col-md-push-0 col-md-pull-8">
+<DIV id="footerLogo"><A href="http://primatelabs.com/"><IMG alt="Primate-labs-logo" 
+src="aws-geek-3_files/primate-labs-logo-6ba4c1fb3d47ebff36590441c1e54ad6.svg"> 
+</A> </DIV>
+<DIV id="footerAddress">
+<P>1867 Yonge St. Suite 902<BR>Toronto, Ontario, Canada<BR>M4S 
+1Y5</P></DIV></DIV></DIV>
+<DIV class="row row-centered">
+<DIV class="col-xs-12 col-sm-6 col-md-5 col-centered" id="copyright">
+<P>Copyright © 2004-2017 Primate Labs Inc. 
+</P></DIV></DIV></DIV></DIV></FOOTER></BODY></HTML>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<nb3006>
+  <sysid ch="742eb9">32D4BEE50987F583840FB487C036E031</sysid>
+  <nscore ch="4ec14c">641</nscore>
+  <cscore ch="57eaa9">403</cscore>
+  <gscore ch="520d9d">3</gscore>
+  <hscore ch="3bf0b0">11</hscore>
+  <rscore ch="001c4a">224</rscore>
+  <date ch="97ad9d">1493231569</date>
+  <os ch="872cc8">Microsoft Windows Server 2016 Datacenter</os>
+  <proctype ch="35fe0a">Intel Xeon  E52686 v4  2.30GHz</proctype>
+  <cores ch="a52a32">4</cores>
+  <procspeed ch="61286c">2300</procspeed>
+  <sysmem ch="23ac23">16384</sysmem>
+  <gputype ch="5fedb7">Microsoft Basic Display Adapter</gputype>
+  <floatsavg ch="4bfb4a" ch2="68d4e4">101908516</floatsavg>
+  <intsavg ch="1c3b4e" ch2="584be1">351026576</intsavg>
+  <encryptavg ch="300cf8" ch2="553065">882805</encryptavg>
+  <threedavg ch="a13b66">14</threedavg>
+  <ramavg ch="1760f2" ch2="c4fdcc">9337</ramavg>
+  <writeavg ch="8526f8" ch2="a88d55">143</writeavg>
+  <space ch="052704">30</space>
+</nb3006>
