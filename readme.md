@@ -1,7 +1,6 @@
 Invoke-WebRequest https://tryh4rder.blob.core.windows.net/crapito/CrystalDiskMark5_2_1.zip -OutFile crystal.zip
 Invoke-WebRequest https://tryh4rder.blob.core.windows.net/crapito/Geekbench-4.1.0-WindowsSetup.exe -OutFile geekbench.exe
 Invoke-WebRequest https://tryh4rder.blob.core.windows.net/crapito/novabench.exe -OutFile novabench.exe
-Invoke-WebRequest https://tryh4rder.blob.core.windows.net/crapito/Unigine_Heaven-4.0.exe -OutFile heaven.exe
 sudo apt-get install hardinfo
 
 Google  - n4        europe-west1-b  SSD100GB
